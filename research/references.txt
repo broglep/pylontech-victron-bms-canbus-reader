@@ -1,0 +1,2 @@
+https://github.com/Sleeper85/esphome-jk-bms-can/blob/main/ESP32_LFP_BLE_jk-bms-can.yaml
+https://github.com/jmibk/BMS-LIB-CAN-Victron/blob/main/src/can_victron.cpp
