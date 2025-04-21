@@ -50,7 +50,7 @@ can_359_alarms_and_warnings = Struct(
         Flag,
         "cell_low_temperature" / Flag,
         "cell_high_temperature" / Flag,
-        "cell_or_module low voltage" / Flag,
+        "cell_or_module_low_voltage" / Flag,
         "cell_or_module_high_voltage" / Flag,
         Flag,
         # Byte 3
