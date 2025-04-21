@@ -73,7 +73,7 @@ BatteryAmpere = ExprAdapter(Int16sl, obj_ * 0.1, obj_ / 0.1)
 BatteryCelicius = ExprAdapter(Int16sl, obj_ * 0.1, obj_ / 0.1)
 
 can_351_bms_instructions = Struct(
-    "battery_charge_voltage" / BatteryVoltage,
+    "battery_charge_voltage" / ExprAdapter(Int16sl, obj_ * 0.1, obj_ / 0.1),
     "charge_current_limit" / BatteryAmpere,
     "discharge_current_limit" / BatteryAmpere,
 )
